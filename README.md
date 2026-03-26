@@ -298,7 +298,6 @@ MIT — free to use, modify, and build on. Attribution appreciated.
 
 ---
 
-## Author
 
-**[Your Name]** — Masters in Artificial Intelligence  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+
+
