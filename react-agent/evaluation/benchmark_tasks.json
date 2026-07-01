@@ -1,0 +1,102 @@
+[
+  {
+    "id": "fact_001", "category": "factual_retrieval",
+    "task": "What is the capital of Australia and its approximate population?",
+    "keywords": ["canberra", "population"], "max_steps": 5
+  },
+  {
+    "id": "fact_002", "category": "factual_retrieval",
+    "task": "Who invented the telephone and in what year?",
+    "keywords": ["bell", "1876"], "max_steps": 5
+  },
+  {
+    "id": "fact_003", "category": "factual_retrieval",
+    "task": "What is the boiling point of tungsten in Celsius?",
+    "keywords": ["5555", "tungsten"], "max_steps": 4
+  },
+  {
+    "id": "fact_004", "category": "factual_retrieval",
+    "task": "How many bones are in the adult human body?",
+    "keywords": ["206"], "max_steps": 4
+  },
+  {
+    "id": "fact_005", "category": "factual_retrieval",
+    "task": "What programming language was Python named after?",
+    "keywords": ["monty python", "comedy"], "max_steps": 5
+  },
+  {
+    "id": "reason_001", "category": "multi_step_reasoning",
+    "task": "If a train travels 120 km/h for 450 km, how many minutes does the journey take?",
+    "keywords": ["225"], "max_steps": 6
+  },
+  {
+    "id": "reason_002", "category": "multi_step_reasoning",
+    "task": "Calculate the 20th Fibonacci number using Python.",
+    "keywords": ["6765"], "max_steps": 6
+  },
+  {
+    "id": "reason_003", "category": "multi_step_reasoning",
+    "task": "Calculate compound interest on $10,000 at 5% annual rate for 10 years compounded monthly.",
+    "keywords": ["16470", "compound"], "max_steps": 6
+  },
+  {
+    "id": "reason_004", "category": "multi_step_reasoning",
+    "task": "How many seconds are in a leap year?",
+    "keywords": ["31622400"], "max_steps": 5
+  },
+  {
+    "id": "reason_005", "category": "multi_step_reasoning",
+    "task": "If Earth's circumference is 40075 km, how many hours to walk around at 5 km/h?",
+    "keywords": ["8015"], "max_steps": 6
+  },
+  {
+    "id": "code_001", "category": "code_generation",
+    "task": "Write and run Python code to find all prime numbers under 50.",
+    "keywords": ["2", "47", "prime"], "max_steps": 5
+  },
+  {
+    "id": "code_002", "category": "code_generation",
+    "task": "Write Python code to reverse the string 'Hello, World!' and print it.",
+    "keywords": ["!dlroW ,olleH"], "max_steps": 5
+  },
+  {
+    "id": "code_003", "category": "code_generation",
+    "task": "Use Python to compute the factorial of 12.",
+    "keywords": ["479001600"], "max_steps": 5
+  },
+  {
+    "id": "code_004", "category": "code_generation",
+    "task": "Write Python to check if the string 'racecar' is a palindrome.",
+    "keywords": ["palindrome", "true", "racecar"], "max_steps": 5
+  },
+  {
+    "id": "code_005", "category": "code_generation",
+    "task": "Use Python to print the first 10 triangular numbers.",
+    "keywords": ["1", "3", "6", "10", "55"], "max_steps": 5
+  },
+  {
+    "id": "research_001", "category": "research_synthesis",
+    "task": "Explain how FAISS works and why it is useful for vector similarity search.",
+    "keywords": ["faiss", "vector", "index", "similarity"], "max_steps": 8
+  },
+  {
+    "id": "research_002", "category": "research_synthesis",
+    "task": "What is the ReAct prompting technique and how does it differ from chain-of-thought?",
+    "keywords": ["react", "reasoning", "acting", "tool"], "max_steps": 8
+  },
+  {
+    "id": "research_003", "category": "research_synthesis",
+    "task": "Summarize the key differences between BERT and GPT language model architectures.",
+    "keywords": ["bert", "gpt", "encoder", "decoder"], "max_steps": 8
+  },
+  {
+    "id": "research_004", "category": "research_synthesis",
+    "task": "What are the main advantages of using LangGraph for agent design over a simple loop?",
+    "keywords": ["langgraph", "state", "graph", "node"], "max_steps": 8
+  },
+  {
+    "id": "research_005", "category": "research_synthesis",
+    "task": "Explain what RAG (Retrieval-Augmented Generation) is and its key benefits.",
+    "keywords": ["retrieval", "augmented", "generation", "knowledge"], "max_steps": 8
+  }
+]

@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [".venv", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP"]
+ignore = ["E501", "F401", "F811"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+no_strict_optional = true
+
+[tool.coverage.run]
+source = ["agent", "memory", "tools", "api"]
+omit = ["tests/*", "evaluation/*", "notebooks/*", "gradio_app/*"]
+
+[tool.coverage.report]
+show_missing = true
